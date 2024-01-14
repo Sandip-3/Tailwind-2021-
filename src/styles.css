@@ -1,0 +1,13 @@
+@import "tailwind/base";
+
+@import "tailwind/components";
+
+@import "tailwind/utilities";
+
+.card {
+  @apply bg-white w-96 rounded-md overflow-hidden shadow-md relative;
+}
+
+.badge {
+  @apply bg-yellow-100 text-gray-800 font-bold uppercase text-xs rounded-full absolute p-2 top-0 mt-2 ml-2;
+}
